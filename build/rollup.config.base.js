@@ -7,19 +7,13 @@ const config = require('../package.json')
 
 export default {
 	input: 'src/index.js',
-	name: 'vue-observe-visibility',
 	plugins: [
 		resolve({
-			jsnext: true,
-			main: true,
-			browser: true,
+			mainFields: ['module', 'jsnext', 'browser'],
 		}),
 		cjs(),
 		babel({
 			exclude: 'node_modules/**',
-			'plugins': [
-				'external-helpers',
-			],
 		}),
 		replace({
 			VERSION: JSON.stringify(config.version),
