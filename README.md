@@ -1,6 +1,7 @@
 # fork
 this is a fork of https://github.com/Akryum/vue-observe-visibility to fix this.observer is null bug.
 
+To install this fork, use:
 ```
 npm install --save @hokify/vue-observe-visibility
 ```
