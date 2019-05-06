@@ -1,6 +1,10 @@
 # fork
 this is a fork of https://github.com/Akryum/vue-observe-visibility to fix this.observer is null bug.
 
+```
+npm install --save @hokify/vue-observe-visibility
+```
+
 # vue-observe-visibility
 
 [![npm](https://img.shields.io/npm/v/vue-observe-visibility.svg) ![npm](https://img.shields.io/npm/dm/vue-observe-visibility.svg)](https://www.npmjs.com/package/vue-observe-visibility)
